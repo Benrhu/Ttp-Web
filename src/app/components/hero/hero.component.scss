@@ -3,13 +3,19 @@
 $bgcolor: skyblue;
 $width: 100%;
 $height: 420px;
+$textColor: #2F66A9;
 
 // Functions
 
 // Styles application
 
-div{
+.hero{
+    color: $textColor;
     height: $height;
-    background-image: url("/src/assets/img/chart.jpg");
     width: $width;
+}
+
+.img{
+    width: 100%;
+    height: $height;
 }
