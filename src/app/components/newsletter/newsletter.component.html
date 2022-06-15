@@ -1,0 +1,11 @@
+<div [ngStyle]="{'text-align': 'center', 'margin-top': '100px'}">
+    
+    <h1>Want to keep up?</h1>
+
+    <label mdbLabel class="form-label " for="form1">Write your better email</label>
+    <input mdbInput type="text" id="form1" class="form-control-sm m-1" [ngModel]="email" />
+
+    <div class="m-2">
+        <button mat-raised-button color="primary">{{cta}}</button>
+    </div>
+</div>
