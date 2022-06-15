@@ -1,0 +1,15 @@
+// Variables
+
+$bgcolor: skyblue;
+$width: 100%;
+$height: 420px;
+
+// Functions
+
+// Styles application
+
+div{
+    height: $height;
+    background-image: url("/src/assets/img/chart.jpg");
+    width: $width;
+}
