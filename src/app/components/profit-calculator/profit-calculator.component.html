@@ -1,0 +1,13 @@
+<div>
+    <section class="p-5">
+        <h1>Profit Calculator!</h1>
+
+        <div [ngStyle]="{'text-align': 'center'}">
+            <input mdbInput class="form-control-sm m-1" type="text" name="inversion" placeholder="Write your investment" (keyup)="inversionChange()"/> 
+        </div>
+
+        <button class="m-2" mat-raised-button color="primary" (click)="showProfit()">{{!show ? 'Show Profit': 'Hide Profit'}}</button>
+
+        <p *ngIf="show">{{profit | currency: 'EUR'}}</p>
+    </section>
+</div>
